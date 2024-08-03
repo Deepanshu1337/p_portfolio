@@ -11,14 +11,7 @@ const Contact = () => {
       .sendForm("service_f1dmpe8", "template_u2rdf66", form.current, {
         publicKey: "scPWODwX0o0ppj4nz",
       })
-      .then(
-        () => {
-          console.log("SUCCESS!");
-        },
-        (error) => {
-          console.log("FAILED...", error.text);
-        }
-      );
+    e.target.reset();
   };
 
   return (
