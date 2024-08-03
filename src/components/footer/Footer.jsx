@@ -25,7 +25,7 @@ const footer = () => {
           <a
             href="https://www.instagram.com/deepanshud1337/"
             className="footer__social-link"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             <i class="bx bxl-instagram"></i>
           </a>
@@ -33,7 +33,7 @@ const footer = () => {
           <a
             href="https://www.linkedin.com/in/deepanshudixit280/"
             className="footer__social-link"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             <i class="bx bxl-linkedin"></i>
           </a>
@@ -41,7 +41,7 @@ const footer = () => {
           <a
             href="https://github.com/Deepanshu1337"
             className="footer__social-link"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             <i class="bx bxl-github"></i>
           </a>
