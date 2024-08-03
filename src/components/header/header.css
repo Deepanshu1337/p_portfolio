@@ -46,6 +46,9 @@
 .nav__link:hover {
     color: var(--title-color-dark);
 }
+.nav__close, .uil-apps{
+    /* margin-right: 1rem; */
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For medium devices */
