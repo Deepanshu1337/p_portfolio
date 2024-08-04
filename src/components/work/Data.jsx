@@ -1,7 +1,7 @@
 import bookWormImg from "../../assets/bookWorm.jpg"
 import paandaFoodsImg from "../../assets/paandaFoods.jpg";
 import learningSyncImg from "../../assets/learningSync.jpg";
-import dummyBankImg from "../../assets/dummybankd.netlify.app_.png"
+import dummyBankImg from "../../assets/dummy bank.jpg"
 
 
 export const projectsData = [
