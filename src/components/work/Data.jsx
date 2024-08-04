@@ -30,7 +30,7 @@ export const projectsData = [
   {
     id: 4,
     image: dummyBankImg,
-    title: "Dummy Bank",
+    title: "Dummy Bank (dd-6342 rg-2222)",
     category: "Java script",
     url: "https://dummybankd.netlify.app/",
   },
