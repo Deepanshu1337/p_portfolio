@@ -1,6 +1,7 @@
 import bookWormImg from "../../assets/bookWorm.jpg"
 import paandaFoodsImg from "../../assets/paandaFoods.jpg";
 import learningSyncImg from "../../assets/learningSync.jpg";
+import dummyBankImg from "../../assets/dummybankd.netlify.app_.png"
 
 
 export const projectsData = [
@@ -25,6 +26,15 @@ export const projectsData = [
     category: "Website template",
     url: "https://bookwormd.netlify.app/",
   },
+
+  {
+    id: 4,
+    image: dummyBankImg,
+    title: "Dummy Bank",
+    category: "Java script",
+    url: "https://dummybankd.netlify.app/",
+  },
+
 ];
 
 export const projectsNav = [
