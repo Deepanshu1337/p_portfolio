@@ -4,19 +4,27 @@ import { projectsNav } from "./Data";
 import WorksItems from "./WorksItems";
 
 export const Works = () => {
-  const [item, setItem] = useState({ name: "All" });
+  const [item, setItem] = useState({ name: "React" });
   const [projects, setProjects] = useState([]);
   const [active, setActive] = useState(0);
 
   useEffect(() => {
-    if (item.name === "All") {
-      setProjects(projectsData);
-    } else {
+  //   if (item.name === "All") {
+  //     setProjects(projectsData);
+  //   } else {
+      
+  //     const newProjects = projectsData.filter((project) => {
+  //       return project.category === item.name;
+  //     });
+  //     setProjects(newProjects);
+  //   }
+  // }, [item]);
+   
       const newProjects = projectsData.filter((project) => {
         return project.category === item.name;
       });
       setProjects(newProjects);
-    }
+    
   }, [item]);
 
   const handleClick = (e, index) => {
