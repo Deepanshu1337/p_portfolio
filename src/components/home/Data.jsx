@@ -58,8 +58,8 @@ const Data = () => {
 
       <h3 className="home__subtitle">React Js Developer</h3>
       <p className="home__description">
-        I am a creative react js developer and i am very passionate and dedicted
-        about my work
+        Dynamic React.js Developer Specializing in Scalable Web Applications"
+        "Skilled in React.js, Redux, and Firebase.
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello

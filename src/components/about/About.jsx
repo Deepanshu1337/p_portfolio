@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/about.jpg";
-import CV from "../../assets/John-Cv.pdf";
+import CV from "../../assets/myCv.pdf";
 import Info from "./Info";
 
 const About = () => {
@@ -16,8 +16,12 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Frontend developer, I create web Application using React Js, I
-            create optimzed react projects .
+            I am a skilled React.js developer with a focus on building scalable,
+            user-centric web applications. Proficient in React.js, Redux, and
+            Firebase, I create responsive and secure solutions that deliver
+            seamless user experiences. My work spans from eCommerce platforms to
+            financial tools, where I excel in efficient state management and
+            intuitive design.
           </p>
 
           <a href={CV} className="button button--flex">
