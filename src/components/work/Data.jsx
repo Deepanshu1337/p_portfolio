@@ -14,21 +14,21 @@ export const projectsData = [
     id: 1,
     image: bookWormImg,
     title: "Bookworm eCommerce bookstore",
-    category: "React",
+    category: "HTML CSS",
     url: "https://bookwormd.netlify.app/",
   },
   {
     id: 2,
     image: paandaFoodsImg,
     title: "PaandaFoods",
-    category: "Website template",
+    category: "Bootstrap",
     url: "https://paandafoods.netlify.app/",
   },
   {
     id: 3,
     image: learningSyncImg,
     title: "Learning Sync",
-    category: "Website template",
+    category: "Bootstrap",
     url: "https://learningsync.netlify.app/",
   },
 
@@ -36,42 +36,42 @@ export const projectsData = [
     id: 4,
     image: dummyBankImg,
     title: "Dummy Bank (dd-6342 rg-2222)",
-    category: "Java script",
+    category: "Tailwind",
     url: "https://dummybankd.netlify.app/",
   },
   {
     id: 5,
     image: pennyPilotImg,
     title: "PennyPilot",
-    category: "React",
+    category: "HTML CSS",
     url: "https://pennypilot.netlify.app/",
   },
   {
     id: 6,
     image: invoicerImg,
     title: "Invoicer",
-    category: "React",
+    category: "HTML CSS",
     url: "https://invoiceit.netlify.app/",
   },
   {
     id: 7,
     image: numberGuessImg,
     title: "Guess the number",
-    category: "Games",
+    category: "Tailwind",
     url: "https://justguessnumber.netlify.app/",
   },
   {
     id: 8,
     image: stonePaperScissorImg,
     title: "Rock paper scissors",
-    category: "Games",
+    category: "Tailwind",
     url: "https://legendrockpaperscissor.netlify.app/",
   },
   {
     id: 9,
     image: ticTacToeImg,
     title: "Tic tac toe",
-    category: "Games",
+    category: "Tailwind",
     url: "https://tictactoedlegend.netlify.app/",
   },
 ];
@@ -79,15 +79,12 @@ export const projectsData = [
 export const projectsNav = [
 
   {
-    name: "React",
+    name: "HTML CSS",
   },
   {
-    name: "Java script",
+    name: "Bootstrap",
   },
   {
-    name: "Website template",
-  },
-  {
-    name: "Games",
+    name: "Tailwind",
   },
 ];

@@ -16,7 +16,7 @@ function Header() {
     <header className="header">
       <nav className="nav container">
         <a href="index.html" className="nav__logo">
-          Deepanshu
+          Pooja
         </a>
 
         <div className={Toogle ? "nav__menu show-menu" : "nav__menu"}>

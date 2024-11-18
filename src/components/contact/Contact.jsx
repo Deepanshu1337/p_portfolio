@@ -41,10 +41,10 @@ const Contact = () => {
 
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">
-                deepanshudixit07@gmail.com
+                jangidpuja1999@gmail.com
               </span>
               <a
-                href="mailto:deepanshudixit07@gmail.com"
+                href="mailto:jangidpuja1999@gmail.com"
                 className="contact__button"
               >
                 {" "}
@@ -57,9 +57,9 @@ const Contact = () => {
               <i className="bx bxl-whatsapp contact__card-icon"></i>
 
               <h3 className="contact__card-title">Whatsapp</h3>
-              <span className="contact__card-data">+917597899179</span>
+              <span className="contact__card-data">+919680991358</span>
               <a
-                href="https://wa.me/7597899179?text=I'm%20interested%20in%20your%20work%20let's%20talk%20further"
+                href="https://wa.me/9680991358?text=I'm%20interested%20in%20your%20work%20let's%20talk%20further"
                 className="contact__button"
               >
                 {" "}
@@ -114,7 +114,7 @@ const Contact = () => {
             <button className="button button--flex">
               Send Message
               <svg
-                class="button__icon"
+                className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"

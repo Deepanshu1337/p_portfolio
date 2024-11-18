@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import AboutImg from "../../assets/about.jpg";
+import AboutImg from "../../assets/profile.jpeg";
 import CV from "../../assets/myCv.pdf";
 import Info from "./Info";
 
@@ -16,18 +16,18 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            I am a skilled React.js developer with a focus on building scalable,
-            user-centric web applications. Proficient in React.js, Redux, and
-            Firebase, I create responsive and secure solutions that deliver
-            seamless user experiences. My work spans from eCommerce platforms to
-            financial tools, where I excel in efficient state management and
-            intuitive design.
+            I’m a creative Web Designer with 1 year of experience crafting
+            intuitive and user-friendly designs. Skilled in HTML, CSS,
+            JavaScript, Bootstrap, SCSS, and Tailwind CSS, I specialize in
+            building responsive, visually striking web experiences. From sleek
+            landing pages to complex dashboards, I blend creativity with
+            functionality to captivate users and elevate brands.
           </p>
 
           <a href={CV} className="button button--flex">
             Download CV
             <svg
-              class="button__icon"
+              className="button__icon"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
